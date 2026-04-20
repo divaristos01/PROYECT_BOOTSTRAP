@@ -1,0 +1,104 @@
+/* GENERAL */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    min-height: 480px;
+    background-color: #006ea4;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+footer {
+    border-top: 0.1px solid white;
+    min-height: 110px;
+    background-color: #006ea4;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#logotipo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+nav.navbar-custom {
+    height: 80px;
+    background-color: #006ea4;
+    padding: 10px 0;
+    border-bottom: 0.1px solid white;
+}
+
+nav.navbar-custom ul {
+    display: flex;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar-custom .nav-item {
+    border: 1px solid white;
+    flex-grow: 1;
+    margin: 0 25px;
+}
+
+nav.navbar-custom .nav-link {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+nav.navbar-custom .nav-link:hover {
+    background-color: aliceblue;
+    transition-duration: 2s;
+}
+
+main h2, main h3 {
+    color: black;
+    text-decoration: underline;
+}
+
+main b {
+    color: black;
+}
+
+#bloque {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+main ul {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+main li {
+    margin-bottom: 10px;
+}
