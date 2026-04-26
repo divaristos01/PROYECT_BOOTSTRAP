@@ -1,0 +1,126 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    margin: 0;
+}
+
+main {
+    height: 480px;
+    background-color: #006ea4;
+    color: white;
+    font-size: 1.3rem;
+}
+
+aside {
+    width: 35.71%;
+    background-color: #006ea4;
+}
+
+section {
+    background-color: aliceblue;
+    color: black;
+}
+
+footer {
+    border-top: 0.1px solid white;
+    min-height: 110px;
+    background-color: #006ea4;
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+#logotipo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+nav.navbar-custom {
+    height: 60px;
+    background-color: #006ea4;
+    padding: 10px 0;
+    border-bottom: 0.1px solid white;
+}
+
+nav.navbar-custom ul {
+    height: 100%;
+}
+
+nav.navbar-custom .nav-item {
+    border: 1px solid white;
+    margin: 0 25px;
+}
+
+nav.navbar-custom .nav-link {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+nav.navbar-custom .nav-link:hover {
+    background-color: aliceblue;
+    transition-duration: 2s;
+}
+
+#volver {
+    flex: 0 0 100px;
+    margin-right: 25px;
+    background-color: white;
+}
+
+#volver a {
+    font-size: 1.5em;
+}
+
+.dropdown-menu {
+    background-color: white;
+    border: 1px solid #006ea4;
+    padding: 0;
+    width: 100%;
+}
+
+.dropdown-item {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+aside li {
+    border: 1px solid white;
+    margin: 25px;
+}
+
+aside li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 2rem;
+}
+
+aside li a:hover {
+    background-color: aliceblue;
+    color: black;
+    transition-duration: 2s;
+}
