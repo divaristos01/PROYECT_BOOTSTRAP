@@ -50,24 +50,16 @@ nav.navbar-custom ul {
 
 nav.navbar-custom .nav-item {
     border: 1px solid white;
-    flex-grow: 1;
     margin: 0 25px;
 }
 
 nav.navbar-custom .nav-link {
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: aliceblue;
     height: 100%;
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
-}
-
-nav.navbar-custom .nav-link:hover {
-    background-color: aliceblue;
-    transition-duration: 2s;
 }
 
 main h2, main h3 {
@@ -91,21 +83,17 @@ main li {
     margin-bottom: 10px;
 }
 
-
-
-#grande{
+#grande {
     flex-grow: 4;
 }
 
 #volver {
-    /* lo pongo primero visualmente sin cambiar el HTML */
     order: -1;
-    /* tamaño fijo, no crece ni encoge como el resto */
     flex: 0 0 100px;
     margin-right: 25px;
     background-color: white;
 }
 
-#volver a{
+#volver a {
     font-size: 1em;
 }

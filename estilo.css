@@ -65,17 +65,10 @@ nav.navbar-custom .nav-item {
 
 nav.navbar-custom .nav-link {
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: black;
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
-}
-
-nav.navbar-custom .nav-link:hover {
-    background-color: aliceblue;
-    transition-duration: 2s;
 }
 
 #volver {
@@ -101,21 +94,20 @@ nav.navbar-custom .nav-link:hover {
     color: black;
     background-color: aliceblue;
     padding: 10px;
-    text-align: center;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    transition-duration: 2s;
 }
 
 aside li {
     border: 1px solid white;
-    margin: 25px;
 }
 
 aside li a {
     text-decoration: none;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
     font-size: 2rem;
 }
 
