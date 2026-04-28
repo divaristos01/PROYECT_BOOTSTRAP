@@ -14,6 +14,7 @@ main {
     height: 480px;
     background-color: #006ea4;
     color: white;
+    padding: 10px;
     font-size: 1.3rem;
 }
 
@@ -25,6 +26,7 @@ aside {
 section {
     background-color: aliceblue;
     color: black;
+    width: 64.28571428571429%;
 }
 
 footer {
@@ -65,10 +67,14 @@ nav.navbar-custom .nav-item {
 
 nav.navbar-custom .nav-link {
     color: black;
-    background-color: black;
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
+}
+
+nav.navbar-custom .nav-link:hover {
+    background-color: aliceblue;
+    transition-duration: 2s;
 }
 
 #volver {
@@ -115,4 +121,57 @@ aside li a:hover {
     background-color: aliceblue;
     color: black;
     transition-duration: 2s;
+}
+
+.activo {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#bloques {
+    border: 1px solid #006ea4;
+    padding: 0 15px 15px;
+    width: 90%;
+    color: #006ea4;
+    font-size: 1.3rem;
+}
+
+#bloques li {
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+#bloques ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+    padding: 15px;
+    gap: 10px;
+}
+
+#bloque {
+    border: 1px solid #006ea4;
+    padding: 0 15px;
+    width: 90%;
+    color: #006ea4;
+    font-size: 1rem;
+}
+
+#bloque li {
+    margin-bottom: 15px;
+    line-height: 1.5;
 }
